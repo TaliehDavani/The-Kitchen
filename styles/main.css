@@ -1,0 +1,145 @@
+
+@font-face {
+    font-family: ma_police;
+    src: url(font/alex-brush/AlexBrush-Regular.ttf);
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif,ma_police;
+	background-color: #EEE;
+	font-size: 85.5%;
+	padding: 0;
+	margin: 0;
+	min-width: 800px;
+}
+#mainContainer{
+	width: 100%;
+	margin: 0 auto;
+}
+header {
+	width: 100%;
+	height: 200px;
+	background-position-x : 50%;
+	background-position-y : 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../images/salad1.jpg");
+	color: white;
+	margin: 0;
+	padding-top: 50px;	
+}
+.first{   
+	float:right;
+	width:80%;
+
+  }
+  section {
+	float:left;
+	padding: 10px;
+		width:20%;
+	color: black; 
+}
+
+/* Clear floats after the columns */
+#second:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#second{
+	background-color: white;
+	margin: 0;
+}
+#head{
+	color:white;
+    font-size: 60px;
+}
+section h1{
+	color: #C00;
+	font-weight: 900;
+}
+section h2{
+	font-weight: 500;
+}
+section ul{
+	list-style: none;
+	padding-left: 0;
+	font-size: 1.8em;
+		text-align: center;
+
+}
+section ul li:first-child{
+	border-top: 1px solid red;
+}
+section li{
+	padding: 5px 0 5px 0;
+	border-bottom: 1px solid red;
+}
+section li a{
+	text-decoration: none;
+	color: inherit;
+}
+section li a:hover{
+	color: black;
+	
+}
+aside{
+	margin-top: 40px;
+}
+
+#meteo p{
+	font-size: 1.4em;
+}
+#txtHint{
+	padding: 20px 70px 20px 70px;
+
+}
+recipe h3{
+	font-size: 1.6em;
+	text-align: center;
+	color:red;
+}
+recipe h2{
+	font-size: 1.9em;
+	text-align: center;
+}
+recipe title{
+	font-size: 1.2em;
+	color: #555;
+}
+recipe p{
+	line-height: 1.5em;
+	font-size: 1.8em;
+}
+/*  DD6157    A24003    E2AF15  7F591B   */
+
+h2{color: #4d2600;	
+}
+
+.button {
+  box-shadow: 0 8px 16px 0 rgba(255,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #034f84;
+  border: none;
+  color: white;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+#border{
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+footer {
+  background-color: #2a1d09;
+  padding: 5px;
+  text-align: center;
+
+  color: white;
+}
